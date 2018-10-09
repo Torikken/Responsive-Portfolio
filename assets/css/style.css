@@ -216,16 +216,43 @@ body {
     border: 0 none;
   }
   
-  @media screen (max-width: 640px){
-    header{
-        position: static;
-        
-    }
+@media screen (max-width: 640px){
+  #masthead{
+    width:100%;
+  }
+  #logo{
+     width:100%;
+  }
+  .main-section{
+    width:100%;
+  }
+  nav{
+    margin-right:20%;
+  }
+  img{
+    width:100%;    
+  }
 }
-  @media screen (max-width: 768px){
-
+@media screen and (max-width: 768px){
+  #masthead{
+    width:100%;
   }
-
-  @media screen (max-width: 980px){
-    
+  #logo{
+    width:100%;
   }
+  .main-section{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 980px){
+  #masthead{
+    width:100%;
+  }
+  #logo{
+    width:100%;
+  }
+  .main-section{
+    width: 65%;
+  }
+}
